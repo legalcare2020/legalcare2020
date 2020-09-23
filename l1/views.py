@@ -1,0 +1,39 @@
+from django.shortcuts import render
+
+def index(request):
+     return render(request,'l1/index.html')
+
+def about(request):
+    return render(request,'l1/about.html')
+def attorneys(request):
+    return render(request,'l1/attorneys.html')
+def practice_areas(request):
+    return render(request,'l1/practice-areas.html')
+def feedback(request):
+    return render(request,'l1/feedback.html')
+def register(request):
+    return render(request,'l1/register.html')
+def u_register(request):
+    return render(request,'l1/u_register.html')
+def login(request):
+    return render(request,'l1/login.html')    
+def fire(request):
+    return render(request,'l1/fire.html')
+def business(request):
+    return render(request,'l1/business.html')
+def criminal(request):
+    return render(request,'l1/criminal.html')
+def employment(request):
+    return render(request,'l1/employment.html')
+def drug(request):
+    return render(request,'l1/drug.html')
+def proper(request):
+    return render(request,'l1/property.html')
+def sexual(request):
+    return render(request,'l1/sexual.html')
+def financial(request):
+    return render(request,'l1/financial.html')
+def insurance(request):
+    return render(request,'l1/insurance.html')
+def family(request):
+    return render(request,'l1/family.html')     
